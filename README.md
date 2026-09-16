@@ -1,21 +1,16 @@
 # CoupleBudget
 
-A simple local-first household budget app designed to be easy enough that both partners actually use it.
+A simple local-first household budget app designed to be easy enough for both partners to use.
 
-## v0.2.0
+## v0.3.0
 
-- Monthly and weekly recurring income/expense schedules
-- Automatic catch-up of missed recurring occurrences
-- Browse historical months instead of only the current month
-- Per-member monthly summary
-- Category budget progress
-- Search, JSON backup/import and CSV export
-- Local-only storage and installable PWA
+- CSV transaction import with common banking/export columns
+- Auto-category rules based on payee/description text
+- Upcoming recurring bills for the next 30 days
+- 30 / 60 / 90 day cash forecast
+- Existing recurring transactions, monthly history, member summaries and category budgets retained
+- JSON backup and CSV export remain local-only
 
-## Run
+CSV columns understood: `date`, `amount`, `description`/`note`/`payee`, optional `type`, `category`, `member`. Dates use `YYYY-MM-DD`.
 
-```bash
-python -m http.server 8080
-```
-
-Open `http://localhost:8080`. CoupleBudget deliberately avoids bank credentials and cloud accounts; it focuses on simple shared household tracking.
+No bank credentials, server, analytics or cloud account required.

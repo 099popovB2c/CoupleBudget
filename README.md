@@ -14,6 +14,14 @@ It focuses on the everyday questions a household needs to answer:
 
 No bank credentials, cloud account or analytics service is required.
 
+## Live demo
+
+CoupleBudget is deployed as a static web app:
+
+**https://couplebudget-lite.netlify.app/**
+
+Application data remains browser-local; the hosted site does not add a CoupleBudget account or transaction backend.
+
 ## What it does
 
 CoupleBudget combines day-to-day expense tracking with lightweight planning:
